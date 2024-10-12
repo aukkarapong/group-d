@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.product {
+    margin: 20px;
+}
+
+.quantity {
+    display: flex;
+    align-items: center;
+}
+
+.btn-decrease,
+.btn-increase {
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+#quantity {
+    width: 50px;
+    text-align: center;
+    margin: 0 10px;
+}
